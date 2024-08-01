@@ -1,0 +1,20 @@
+{
+  "ACO_parameters": [{
+    "__data_file_csv" : "Data/Circle_coord.csv",
+    "ant_count" : 30,
+    "generations_count" : 1000,
+    "alfa" : 3,
+    "beta" : 5,
+    "initial_pheromone": 0.1,
+    "pheromone_quantity": 1,
+    "evaporation_coefficient": 0.1
+  }
+  ],
+  "SA_parameters": [{
+    "__data_file_csv" : "Data/little_data.csv",
+    "initial_temperature": 10,
+    "final_temperature" : 0.00001,
+    "limit_of_iterations" : 500000
+  }
+  ]
+}
